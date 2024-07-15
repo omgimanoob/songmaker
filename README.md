@@ -25,7 +25,7 @@ SongMaker is a project that programmatically generates music from given lyrics u
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/yomgimanoob/songmaker.git
+   git clone https://github.com/omgimanoob/songmaker.git
    cd songmaker
    ```
 
