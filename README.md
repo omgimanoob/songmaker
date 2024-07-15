@@ -78,7 +78,7 @@ SongMaker is a project that programmatically generates music from given lyrics u
 
 ## Project Structure
 
-\`\`\`plaintext
+```plaintext
 songmaker/
 ├── .gitignore
 ├── README.md
@@ -93,7 +93,7 @@ songmaker/
 │   ├── vocals.wav
 │   └── final_song.wav
 └── requirements.txt
-\`\`\`
+```
 
 ## Features
 
