@@ -1,0 +1,49 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environment
+venv/
+env/
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore configuration files
+*.cfg
+*.ini
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
+
+# Ignore MIDI and audio files (optional, if you don't want to version them)
+*.mid
+*.midi
+*.wav
+*.mp3
+
+# Ignore any output directories
+output/
+generated/
+accompaniment/
+combined/
+
+# Ignore specific tools and IDE files
+# JetBrains IDEs
+.idea/
+
+# VS Code
+.vscode/
+
+# Ignore the Magenta repository if cloned inside the project
+magenta/
