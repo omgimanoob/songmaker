@@ -24,38 +24,38 @@ SongMaker is a project that programmatically generates music from given lyrics u
 
 1. **Clone the repository:**
 
-   \`\`\`sh
+   ```sh
    git clone https://github.com/yomgimanoob/songmaker.git
    cd songmaker
-   \`\`\`
+   ```
 
 2. **Create and activate a virtual environment:**
 
-   \`\`\`sh
+   ```sh
    python3 -m venv venv
    source venv/bin/activate
-   \`\`\`
+   ```
 
 3. **Install the required packages:**
 
-   \`\`\`sh
+   ```sh
    pip install --upgrade pip
    pip install tensorflow magenta mido pretty_midi pydub
-   \`\`\`
+   ```
 
 4. **Install ffmpeg:**
 
-   \`\`\`sh
+   ```sh
    sudo apt install ffmpeg
-   \`\`\`
+   ```
 
 ## Usage
 
 1. **Generate a melody:**
 
-   \`\`\`sh
+   ```sh
    python generate_melody.py
-   \`\`\`
+   ```
 
 2. **Add accompaniment (optional):**
    - You can use MuseScore or script it programmatically.
@@ -65,9 +65,9 @@ SongMaker is a project that programmatically generates music from given lyrics u
 
 4. **Combine and finalize:**
 
-   \`\`\`sh
+   ```sh
    python combine_tracks.py
-   \`\`\`
+   ```
 
 ### Example Scripts
 
