@@ -16,7 +16,7 @@ SongMaker is a project that programmatically generates music from given lyrics u
 
 ### Prerequisites
 
-- Python 3.12 or higher
+- Python 3.9
 - pip (Python package installer)
 - ffmpeg (for audio processing)
 
@@ -32,7 +32,7 @@ SongMaker is a project that programmatically generates music from given lyrics u
 2. **Create and activate a virtual environment:**
 
    ```sh
-   python3 -m venv venv
+   python3.9 -m venv venv
    source venv/bin/activate
    ```
 
@@ -43,7 +43,13 @@ SongMaker is a project that programmatically generates music from given lyrics u
    pip install tensorflow magenta mido pretty_midi pydub
    ```
 
-4. **Install ffmpeg:**
+4. **Install `numba` and related dependencies:**
+
+   ```sh
+   pip install numpy==1.21.6 setuptools==59.5.0 numba==0.49.1 llvmlite==0.32.1
+   ```
+
+5. **Install ffmpeg:**
 
    ```sh
    sudo apt install ffmpeg
@@ -101,5 +107,3 @@ songmaker/
 - **Accompaniment**: Add chords and harmonies to your melodies.
 - **Vocal Synthesis**: Synthesize vocals from given lyrics.
 - **Track Combination**: Combine different musical elements into a final song.
-
-
